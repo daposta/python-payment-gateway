@@ -13,6 +13,9 @@ A user sends a payment request to the API Gateway. And then there are several op
 
 ## Domain Entities
 1. PaymentRequest
-2. Ledger
+2. LedgerEntry
 3. Merchant
-4. Logs
+4. LegderTransaction
+5. WebhookEvent
+6. PaymentProvider
+7. IdempotencyRecord
