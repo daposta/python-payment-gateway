@@ -1,0 +1,21 @@
+[project]
+name = "python-payment-gateway"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "daposta", email = "dapolawore@gmail.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "alembic>=1.20.1",
+    "fastapi[standard]>=0.162.2",
+    "sqlalchemy>=2.1.8",
+]
+
+[project.scripts]
+python-payment-gateway = "python_payment_gateway.src:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
