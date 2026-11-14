@@ -1,6 +1,6 @@
 ## How the gateway works
 
-![Merchant Application](docs/images/Payment-Gateway-Design.png)
+![Merchant Application](images/Payment-Gateway-Design.png)
 
 
 # Description
@@ -15,7 +15,8 @@ A user sends a payment request to the API Gateway. And then there are several op
 1. PaymentRequest
 2. LedgerEntry
 3. Merchant
-4. LegderTransaction
+4. LedgerTransaction
 5. WebhookEvent
 6. PaymentProvider
 7. IdempotencyRecord
+8. PaymentAttempt
